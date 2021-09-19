@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-09-18T11:52:00.351-07:00
-  initializedAtString: 2021-09-17T03:34:55.386-07:00
+  lastUpdatedAtString: 2021-09-18T22:05:40.267-07:00
+  initializedAtString: 2021-09-18T22:05:40.267-07:00
   currentGitRemote:
     name: PandaCup
     url: https://github.com/WithAOne/PandaCup
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: PandaCup/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: PandaCup
+      url: https://github.com/WithAOne/PandaCup
+    trackingBranch: master
   currentConfigRemote:
     name: PandaCup
     url: https://github.com/WithAOne/PandaCup

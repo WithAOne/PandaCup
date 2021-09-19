@@ -5,12 +5,18 @@ using UnityEngine;
 public class ProjectileContact : MonoBehaviour
 {
     public Vector2 velocity;
-    public float damage;
-    public float knockback;
+    public float damage = 1;
+    public float knockback = 1;
 
-    void Start()
+    public float life = 10f;
+
+    void Update()
     {
-        
+        life = Mathf.Max(life - Time.deltaTime, 0);
+        if (life == 0)
+        {
+            Destroy(gameObject);
+        }
     }
     void FixedUpdate()
     {
@@ -23,12 +29,13 @@ public class ProjectileContact : MonoBehaviour
         if (sc)
         {
             sc.Health -= damage;
+            sc.gameObject.SendMessage("DamageTaken", damage); // inform object it's been damaged
         }
 
         var rb = col.gameObject.GetComponent<Rigidbody2D>();
         if (rb)
         {
-            rb.velocity += velocity.normalized * knockback;
+            rb.AddForce(velocity.normalized * knockback * 1000);
         }
 
         Destroy(gameObject);

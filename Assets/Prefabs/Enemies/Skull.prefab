@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 988082057697717767}
   - component: {fileID: 988082057697717775}
   - component: {fileID: 3361981748804780022}
+  - component: {fileID: -4029610485515681161}
   m_Layer: 0
   m_Name: Skull
   m_TagString: Untagged
@@ -87,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4231c164846be2946b2dfbb00a063454, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 3
+  Health: 5
   destroyOnDead: 1
   animationOnDead: 
 --- !u!114 &988082057697717767
@@ -128,8 +129,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visual: {fileID: 8579671257184476412}
-  minDist: 5
-  moveSpeed: 0.5
+  throwProjectile: {fileID: 3969542396400009145, guid: 7faf5dd9f4e98d741abe3721323df00a, type: 3}
+  throwAnimation: Attack
+  maxDist: 30
+  throwInterval: 5
+  projectileSpeed: 0.1
+--- !u!114 &-4029610485515681161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805689370121860492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d0d02c16ccd4a4fbac833f1e98e6b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visual: {fileID: 8579671257184476412}
+  canMove: 1
+  tailDistance: 7
+  moveSpeed: 0.4
 --- !u!1 &7055794277616119851
 GameObject:
   m_ObjectHideFlags: 0

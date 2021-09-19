@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\PersistantDynamic.cs" />
     <Compile Include="Assets\Scripts\StatContainer.cs" />
     <Compile Include="Assets\Scripts\RemoveWithDamage.cs" />
+    <Compile Include="Assets\Scripts\ProjectileContact.cs" />
     <Compile Include="Assets\Scripts\StatUI.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\TextureController.cs" />
     <Compile Include="Assets\Scripts\GlobalDynamic.cs" />
@@ -72,10 +73,10 @@
     <Compile Include="Assets\Scripts\SkillUI.cs" />
     <Compile Include="Assets\Scripts\TheEndContact.cs" />
     <Compile Include="Assets\Scripts\EntityDepth.cs" />
+    <Compile Include="Assets\Scripts\AI\RangedAI.cs" />
     <Compile Include="Assets\Scripts\EffectContact.cs" />
     <Compile Include="Assets\Scripts\CharacterControl.cs" />
-    <Compile Include="Assets\Scripts\AI\RangedAI.cs" />
-    <Compile Include="Assets\Scripts\ProjectileContact.cs" />
+    <Compile Include="Assets\Scripts\Spinny.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

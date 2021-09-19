@@ -1153,9 +1153,9 @@ MonoBehaviour:
     - reigonSize: 15
       restrict: 1
       enemies:
-      - count: 2
+      - count: 1
         side: 0
-        enemy: {fileID: 7485242398603410425, guid: 4b51a00f03b9b184c9c43aac7cf700d5, type: 3}
+        enemy: {fileID: 1805689370121860492, guid: b17290e1ada9da7439f6b0fba08d74b4, type: 3}
         sift: 0
       objects: []
     - reigonSize: 25
