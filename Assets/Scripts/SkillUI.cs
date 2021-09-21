@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 2020 Isabella Dare/WithAOne
+
 public class SkillUI : MonoBehaviour
 {
     public GameObject owner; // the object from which the skills are taken

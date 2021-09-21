@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\GlobalDynamic.cs" />
     <Compile Include="Assets\Scripts\BackdropController.cs" />
     <Compile Include="Assets\Scripts\AI\BasicAttackAI.cs" />
+    <Compile Include="Assets\Scripts\MenuCloud.cs" />
     <Compile Include="Assets\Scripts\AI\BasicFollowAI.cs" />
     <Compile Include="Assets\Scripts\SkillUI.cs" />
     <Compile Include="Assets\Scripts\TheEndContact.cs" />
@@ -80,7 +81,7 @@
     <Compile Include="Assets\Scripts\AI\RangedAI.cs" />
     <Compile Include="Assets\Scripts\EffectContact.cs" />
     <Compile Include="Assets\Scripts\CharacterControl.cs" />
-    <Compile Include="Assets\Scripts\MenuCloud.cs" />
+    <Compile Include="Assets\Scripts\QuitButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

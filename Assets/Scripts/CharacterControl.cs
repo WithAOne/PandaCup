@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// 2020 Isabella Dare/WithAOne
+
 public class CharacterControl : MonoBehaviour
 {
     Rigidbody2D rb;
