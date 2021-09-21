@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelUI : MonoBehaviour
 {
     public LevelLayout layout;
-    private string scene = "TestingScene";
+    private string scene = "Level";
 
     void Start()
     {

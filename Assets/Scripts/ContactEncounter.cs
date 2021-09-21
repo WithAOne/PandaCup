@@ -12,7 +12,7 @@ public class ContactEncounter : MonoBehaviour
     {
         if (other.gameObject.GetInstanceID() == agent.GetInstanceID())
         {
-
+            // spawn in all enemies in the encounter
             foreach (EnemyEncounter enemy in encounter.enemies)
             {
                 for (int i = 0; i < enemy.count; i++)

@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-09-18T21:04:51.477-07:00
-  initializedAtString: 2021-09-18T20:27:58.498-07:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2021-09-20T22:28:56.425-07:00
+  initializedAtString: 2021-09-20T22:28:56.415-07:00
+  localBranches:
+  - name: master
+    tracking: PandaCup/master
+  remoteBranches:
+  - name: PandaCup/master
+    tracking: '[None]'
   remotes:
   - name: PandaCup
     url: https://github.com/WithAOne/PandaCup
@@ -26,15 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: PandaCup
+        url: https://github.com/WithAOne/PandaCup
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - PandaCup
     subKeys:
-    - Values: []
+    - Values:
+      - master
     subKeyValues:
-    - Values: []
+    - Values:
+      - name: master
+        remote:
+          name: PandaCup
+          url: https://github.com/WithAOne/PandaCup
+        trackingBranch: 
   configRemotes:
     keys:
     - PandaCup

@@ -25,6 +25,7 @@ public class RangedAI : MonoBehaviour
         aicon = GetComponent<AIContainer>();
         ani = visual.GetComponent<Animator>();
         fai = GetComponent<BasicFollowAI>();
+        throwTimer = Random.Range(throwInterval-1, throwInterval+1);
     }
     void Update()
     {
@@ -43,7 +44,7 @@ public class RangedAI : MonoBehaviour
             ani.Play(throwAnimation);
 
             // reset timer
-            throwTimer = throwInterval;
+            throwTimer = Random.Range(throwInterval-1, throwInterval+1);
         }
 
         // don't move while throwing

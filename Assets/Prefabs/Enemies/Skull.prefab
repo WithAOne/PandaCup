@@ -148,7 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visual: {fileID: 8579671257184476412}
   canMove: 1
-  tailDistance: 7
+  tailDistance: 4
   moveSpeed: 0.4
 --- !u!1 &7055794277616119851
 GameObject:

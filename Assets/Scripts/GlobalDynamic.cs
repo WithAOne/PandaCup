@@ -92,6 +92,9 @@ public class GlobalDynamic : MonoBehaviour
             float newlimit = oldlimit + layout.encounters[currentEncounter].reigonSize;
             ExtendLimit(newlimit);
 
+            // tell backdrop manager to make new backdrops
+            GetComponent<BackdropController>().NewBackdrop(oldlimit+20, newlimit+20);
+
             // restrict limit if set up to
             if (layout.encounters[currentEncounter].restrict)
             {

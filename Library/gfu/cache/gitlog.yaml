@@ -13,9 +13,945 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-09-18T21:04:52.340-07:00
-  initializedAtString: 2021-09-18T20:25:29.269-07:00
+  lastUpdatedAtString: 2021-09-20T22:29:37.350-07:00
+  initializedAtString: 2021-09-20T22:29:37.060-07:00
   log:
+  - commitID: 2c9640fbac5b7f0caeaffec77193628bd274060d
+    mergeA: 
+    mergeB: 
+    authorName: WithAOne
+    authorEmail: 38455779+WithAOne@users.noreply.github.com
+    commitEmail: 38455779+WithAOne@users.noreply.github.com
+    commitName: WithAOne
+    summary: Update .gitignore
+    description: 
+    timeString: 2021-09-20T22:28:21.000-07:00
+    commitTimeString: 2021-09-20T22:28:21.000-07:00
+    changes:
+    - path: .gitignore
+      fullPath: D:\Project\game\unity\pandacup\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 7836e707114d54aef50f98f5067e519e3eaf9224
+    mergeA: 
+    mergeB: 
+    authorName: WithAOne
+    authorEmail: 38455779+WithAOne@users.noreply.github.com
+    commitEmail: 38455779+WithAOne@users.noreply.github.com
+    commitName: WithAOne
+    summary: Added Skull (ranged enemy)
+    description: 
+    timeString: 2021-09-18T22:46:47.000-07:00
+    commitTimeString: 2021-09-18T22:46:47.000-07:00
+    changes:
+    - path: .vs\pandacup\v16\.suo
+      fullPath: D:\Project\game\unity\pandacup\.vs\pandacup\v16\.suo
+      projectPath: .vs\pandacup\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\Project\game\unity\pandacup\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Skull.prefab
+      fullPath: D:\Project\game\unity\pandacup\Assets\Prefabs\Enemies\Skull.prefab
+      projectPath: Assets\Prefabs\Enemies\Skull.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\ThrownOnion.prefab
+      fullPath: D:\Project\game\unity\pandacup\Assets\Prefabs\Enemies\ThrownOnion.prefab
+      projectPath: Assets\Prefabs\Enemies\ThrownOnion.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\ThrownOnion.prefab.meta
+      fullPath: D:\Project\game\unity\pandacup\Assets\Prefabs\Enemies\ThrownOnion.prefab.meta
+      projectPath: Assets\Prefabs\Enemies\ThrownOnion.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\TestingScene.unity
+      fullPath: D:\Project\game\unity\pandacup\Assets\Scenes\TestingScene.unity
+      projectPath: Assets\Scenes\TestingScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\AI\RangedAI.cs
+      fullPath: D:\Project\game\unity\pandacup\Assets\Scripts\AI\RangedAI.cs
+      projectPath: Assets\Scripts\AI\RangedAI.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\ProjectileContact.cs
+      fullPath: D:\Project\game\unity\pandacup\Assets\Scripts\ProjectileContact.cs
+      projectPath: Assets\Scripts\ProjectileContact.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Spinny.cs
+      fullPath: D:\Project\game\unity\pandacup\Assets\Scripts\Spinny.cs
+      projectPath: Assets\Scripts\Spinny.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Spinny.cs.meta
+      fullPath: D:\Project\game\unity\pandacup\Assets\Scripts\Spinny.cs.meta
+      projectPath: Assets\Scripts\Spinny.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Spriter\2\2\full7.pdn
+      fullPath: D:\Project\game\unity\pandacup\Assets\Spriter\2\2\full7.pdn
+      projectPath: Assets\Spriter\2\2\full7.pdn
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Spriter\2\2\full8.pdn
+      fullPath: D:\Project\game\unity\pandacup\Assets\Spriter\2\2\full8.pdn
+      projectPath: Assets\Spriter\2\2\full8.pdn
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Spriter\2\7\onion.png
+      fullPath: D:\Project\game\unity\pandacup\Assets\Spriter\2\7\onion.png
+      projectPath: Assets\Spriter\2\7\onion.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Spriter\2\7\onion.png.meta
+      fullPath: D:\Project\game\unity\pandacup\Assets\Spriter\2\7\onion.png.meta
+      projectPath: Assets\Spriter\2\7\onion.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\lvl4.png
+      fullPath: D:\Project\game\unity\pandacup\Assets\Sprites\lvl4.png
+      projectPath: Assets\Sprites\lvl4.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\lvl4.png.meta
+      fullPath: D:\Project\game\unity\pandacup\Assets\Sprites\lvl4.png.meta
+      projectPath: Assets\Sprites\lvl4.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: D:\Project\game\unity\pandacup\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\00\003a80406d4dd129b91d65972b0c3d67
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\00\003a80406d4dd129b91d65972b0c3d67
+      projectPath: Library\Artifacts\00\003a80406d4dd129b91d65972b0c3d67
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\03\03923b99b3f10d111ad1998169a65711
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\03\03923b99b3f10d111ad1998169a65711
+      projectPath: Library\Artifacts\03\03923b99b3f10d111ad1998169a65711
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\04\04f6a92204fa1c5f51181ce3d5fc4945
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\04\04f6a92204fa1c5f51181ce3d5fc4945
+      projectPath: Library\Artifacts\04\04f6a92204fa1c5f51181ce3d5fc4945
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\09\09bf893cf5cb63dd43e62e42f2a698cc
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\09\09bf893cf5cb63dd43e62e42f2a698cc
+      projectPath: Library\Artifacts\09\09bf893cf5cb63dd43e62e42f2a698cc
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\0c\0cea4a897df437d9c22ca86dd9cb7d3b
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\0c\0cea4a897df437d9c22ca86dd9cb7d3b
+      projectPath: Library\Artifacts\0c\0cea4a897df437d9c22ca86dd9cb7d3b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\0d\0db3741a272515913f808c3bf5e524fa
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\0d\0db3741a272515913f808c3bf5e524fa
+      projectPath: Library\Artifacts\0d\0db3741a272515913f808c3bf5e524fa
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\0f\0f304a710cd6a027f79f0ab21bf14fcf
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\0f\0f304a710cd6a027f79f0ab21bf14fcf
+      projectPath: Library\Artifacts\0f\0f304a710cd6a027f79f0ab21bf14fcf
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\10\10c9c2ea60a88617a5fdce2b1fbda3fc
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\10\10c9c2ea60a88617a5fdce2b1fbda3fc
+      projectPath: Library\Artifacts\10\10c9c2ea60a88617a5fdce2b1fbda3fc
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\18\1889a52868202bba07b89ae583ec9033
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\18\1889a52868202bba07b89ae583ec9033
+      projectPath: Library\Artifacts\18\1889a52868202bba07b89ae583ec9033
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\19\190e96aa3406f4fae94846e11b73b746
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\19\190e96aa3406f4fae94846e11b73b746
+      projectPath: Library\Artifacts\19\190e96aa3406f4fae94846e11b73b746
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\19\19cdab92b403f1c018564e7942eb2642
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\19\19cdab92b403f1c018564e7942eb2642
+      projectPath: Library\Artifacts\19\19cdab92b403f1c018564e7942eb2642
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\1d\1d1606e0ecba5e89d893745ad1e1d2e8
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\1d\1d1606e0ecba5e89d893745ad1e1d2e8
+      projectPath: Library\Artifacts\1d\1d1606e0ecba5e89d893745ad1e1d2e8
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\1f\1f89c061c93d9004a33fb12d5cb20e8a
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\1f\1f89c061c93d9004a33fb12d5cb20e8a
+      projectPath: Library\Artifacts\1f\1f89c061c93d9004a33fb12d5cb20e8a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\1f\1f9f9096f2d4f59a85871f8f09df393e
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\1f\1f9f9096f2d4f59a85871f8f09df393e
+      projectPath: Library\Artifacts\1f\1f9f9096f2d4f59a85871f8f09df393e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\21\213fda8e0900d3a62500043094bee329
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\21\213fda8e0900d3a62500043094bee329
+      projectPath: Library\Artifacts\21\213fda8e0900d3a62500043094bee329
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\25\2505e69caf950073d6a24e09a696b8b4
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\25\2505e69caf950073d6a24e09a696b8b4
+      projectPath: Library\Artifacts\25\2505e69caf950073d6a24e09a696b8b4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\2a\2a2bdd29396645b69173893e5cdf4f84
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\2a\2a2bdd29396645b69173893e5cdf4f84
+      projectPath: Library\Artifacts\2a\2a2bdd29396645b69173893e5cdf4f84
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\2b\2b47c39a4e86c945f4a64f9f76643d7b
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\2b\2b47c39a4e86c945f4a64f9f76643d7b
+      projectPath: Library\Artifacts\2b\2b47c39a4e86c945f4a64f9f76643d7b
+      originalPath: Library\Artifacts\41\41392075d6a6293a0a7500275c533a27
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\2e\2eeb859d72498299b52a137a3b686906
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\2e\2eeb859d72498299b52a137a3b686906
+      projectPath: Library\Artifacts\2e\2eeb859d72498299b52a137a3b686906
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\2f\2f2ba0562c1a3acc44d9bb97b0bc275c
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\2f\2f2ba0562c1a3acc44d9bb97b0bc275c
+      projectPath: Library\Artifacts\2f\2f2ba0562c1a3acc44d9bb97b0bc275c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\31\319b2fc426359ffba90785b3faf29f23
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\31\319b2fc426359ffba90785b3faf29f23
+      projectPath: Library\Artifacts\31\319b2fc426359ffba90785b3faf29f23
+      originalPath: Library\Artifacts\ac\acb98e90bc5b65225296b8e5b7209468
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\32\325a6bb28339200468a286def3deadae
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\32\325a6bb28339200468a286def3deadae
+      projectPath: Library\Artifacts\32\325a6bb28339200468a286def3deadae
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\3b\3b0e90b0985a171475fca9d8acfb1d72
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\3b\3b0e90b0985a171475fca9d8acfb1d72
+      projectPath: Library\Artifacts\3b\3b0e90b0985a171475fca9d8acfb1d72
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\3e\3eec9880d616c08642c0b9893c93da93
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\3e\3eec9880d616c08642c0b9893c93da93
+      projectPath: Library\Artifacts\3e\3eec9880d616c08642c0b9893c93da93
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\40\407b4ccbe08b33587a9e9b09255576e2
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\40\407b4ccbe08b33587a9e9b09255576e2
+      projectPath: Library\Artifacts\40\407b4ccbe08b33587a9e9b09255576e2
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\40\409e05e11765b2588788514bbdc9d9ec
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\40\409e05e11765b2588788514bbdc9d9ec
+      projectPath: Library\Artifacts\40\409e05e11765b2588788514bbdc9d9ec
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\41\4132c895845a4e65071629f47f24844c
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\41\4132c895845a4e65071629f47f24844c
+      projectPath: Library\Artifacts\41\4132c895845a4e65071629f47f24844c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\41\41965c955220322b6f08b0ad416934f7
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\41\41965c955220322b6f08b0ad416934f7
+      projectPath: Library\Artifacts\41\41965c955220322b6f08b0ad416934f7
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\43\430036f408da019cf87f58d99374d587
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\43\430036f408da019cf87f58d99374d587
+      projectPath: Library\Artifacts\43\430036f408da019cf87f58d99374d587
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\44\44890b09eb7d75355755199eb57b8d7e
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\44\44890b09eb7d75355755199eb57b8d7e
+      projectPath: Library\Artifacts\44\44890b09eb7d75355755199eb57b8d7e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\47\473d542bb25d39d845eafa29974c3157
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\47\473d542bb25d39d845eafa29974c3157
+      projectPath: Library\Artifacts\47\473d542bb25d39d845eafa29974c3157
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\4a\4a379cfc99b9717b250ae33a04bc5ae0
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\4a\4a379cfc99b9717b250ae33a04bc5ae0
+      projectPath: Library\Artifacts\4a\4a379cfc99b9717b250ae33a04bc5ae0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\4a\4ad91532c915db4282f58c75c651c6b6
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\4a\4ad91532c915db4282f58c75c651c6b6
+      projectPath: Library\Artifacts\4a\4ad91532c915db4282f58c75c651c6b6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\4d\4d137bc22d4292f3373567538427e1af
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\4d\4d137bc22d4292f3373567538427e1af
+      projectPath: Library\Artifacts\4d\4d137bc22d4292f3373567538427e1af
+      originalPath: Library\Artifacts\b4\b422e417e8a444565b61f5b46ac617d1
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\51\5107a752dff2583341544e9edf7ea714
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\51\5107a752dff2583341544e9edf7ea714
+      projectPath: Library\Artifacts\51\5107a752dff2583341544e9edf7ea714
+      originalPath: Library\Artifacts\da\da7c98c2f3de73e14c6ca8d27ab60e14
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\52\52ce098f572f043775c72dad2abd4b1a
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\52\52ce098f572f043775c72dad2abd4b1a
+      projectPath: Library\Artifacts\52\52ce098f572f043775c72dad2abd4b1a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\52\52f4465c90f4b9b49862a589206924de
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\52\52f4465c90f4b9b49862a589206924de
+      projectPath: Library\Artifacts\52\52f4465c90f4b9b49862a589206924de
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\56\560c68ca6d97dbf2d9fda50a56356e1e
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\56\560c68ca6d97dbf2d9fda50a56356e1e
+      projectPath: Library\Artifacts\56\560c68ca6d97dbf2d9fda50a56356e1e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\56\56e8fbc828bdcaaa25ea881f9e483017
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\56\56e8fbc828bdcaaa25ea881f9e483017
+      projectPath: Library\Artifacts\56\56e8fbc828bdcaaa25ea881f9e483017
+      originalPath: Library\Artifacts\48\48176dd9e866ad224841863d04f8aa2b
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\58\58e6b929888812d669a1754a833e517e
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\58\58e6b929888812d669a1754a833e517e
+      projectPath: Library\Artifacts\58\58e6b929888812d669a1754a833e517e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\5b\5b780caf7bb9da058ba80ef74825af5c
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\5b\5b780caf7bb9da058ba80ef74825af5c
+      projectPath: Library\Artifacts\5b\5b780caf7bb9da058ba80ef74825af5c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\61\61dd3584a0a06c946b5229ae60c305d4
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\61\61dd3584a0a06c946b5229ae60c305d4
+      projectPath: Library\Artifacts\61\61dd3584a0a06c946b5229ae60c305d4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\62\62fa3a0b87ac76af2dec6e432823574d
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\62\62fa3a0b87ac76af2dec6e432823574d
+      projectPath: Library\Artifacts\62\62fa3a0b87ac76af2dec6e432823574d
+      originalPath: Library\Artifacts\f4\f482c65178cbf74bd505812a9eb91c5d
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\64\64a72ab6f6195cec040ffadf5ff29037
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\64\64a72ab6f6195cec040ffadf5ff29037
+      projectPath: Library\Artifacts\64\64a72ab6f6195cec040ffadf5ff29037
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\69\69d4f5b2e39d41abe4159752313aedda
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\69\69d4f5b2e39d41abe4159752313aedda
+      projectPath: Library\Artifacts\69\69d4f5b2e39d41abe4159752313aedda
+      originalPath: Library\Artifacts\fb\fb5cc3d4adc2a02ac547cc9c33d82b3f
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\69\69ee6fc742cefd5355a8445121d90983
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\69\69ee6fc742cefd5355a8445121d90983
+      projectPath: Library\Artifacts\69\69ee6fc742cefd5355a8445121d90983
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\6e\6e315780f64dfc8e8e46718c2b75e77a
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\6e\6e315780f64dfc8e8e46718c2b75e77a
+      projectPath: Library\Artifacts\6e\6e315780f64dfc8e8e46718c2b75e77a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\6e\6e8903204c3b287fae3e7123bbea605a
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\6e\6e8903204c3b287fae3e7123bbea605a
+      projectPath: Library\Artifacts\6e\6e8903204c3b287fae3e7123bbea605a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\70\705f067c0780c25f46da776bbe8dc6e2
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\70\705f067c0780c25f46da776bbe8dc6e2
+      projectPath: Library\Artifacts\70\705f067c0780c25f46da776bbe8dc6e2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\70\70716aa2358bb3bc9c127fc04e260a4a
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\70\70716aa2358bb3bc9c127fc04e260a4a
+      projectPath: Library\Artifacts\70\70716aa2358bb3bc9c127fc04e260a4a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\7a\7a0c66d505b8f1dec111a3938b7ac59d
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\7a\7a0c66d505b8f1dec111a3938b7ac59d
+      projectPath: Library\Artifacts\7a\7a0c66d505b8f1dec111a3938b7ac59d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\7e\7e4fbef30d6e554585b0d958a19aff10
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\7e\7e4fbef30d6e554585b0d958a19aff10
+      projectPath: Library\Artifacts\7e\7e4fbef30d6e554585b0d958a19aff10
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\7f\7f83f10c31601963c78412f95ec9dc1d
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\7f\7f83f10c31601963c78412f95ec9dc1d
+      projectPath: Library\Artifacts\7f\7f83f10c31601963c78412f95ec9dc1d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\7f\7fec79d7dd60b895576886aa0179e881
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\7f\7fec79d7dd60b895576886aa0179e881
+      projectPath: Library\Artifacts\7f\7fec79d7dd60b895576886aa0179e881
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\80\80b036d9d52372482b249864f3d0c981
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\80\80b036d9d52372482b249864f3d0c981
+      projectPath: Library\Artifacts\80\80b036d9d52372482b249864f3d0c981
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\80\80dd97fd3ef35f3610d41d2a2e3c06cd
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\80\80dd97fd3ef35f3610d41d2a2e3c06cd
+      projectPath: Library\Artifacts\80\80dd97fd3ef35f3610d41d2a2e3c06cd
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\82\8244e4cd7579452a9fb0653817201ca3
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\82\8244e4cd7579452a9fb0653817201ca3
+      projectPath: Library\Artifacts\82\8244e4cd7579452a9fb0653817201ca3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\82\82a506359020940c56405900123c835c
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\82\82a506359020940c56405900123c835c
+      projectPath: Library\Artifacts\82\82a506359020940c56405900123c835c
+      originalPath: Library\Artifacts\a0\a0ea32a714d506bb9410b63532da6db6
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\82\82fb3fcda4b491bbe8a17598e2502ee9
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\82\82fb3fcda4b491bbe8a17598e2502ee9
+      projectPath: Library\Artifacts\82\82fb3fcda4b491bbe8a17598e2502ee9
+      originalPath: Library\Artifacts\c3\c3f1727b092fc136be3db59e47d4e8d9
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\83\83e4c6f03da63cd0bc99f8cd4ea90953
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\83\83e4c6f03da63cd0bc99f8cd4ea90953
+      projectPath: Library\Artifacts\83\83e4c6f03da63cd0bc99f8cd4ea90953
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\84\84ba37f8a3e535ec985bbda057798443
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\84\84ba37f8a3e535ec985bbda057798443
+      projectPath: Library\Artifacts\84\84ba37f8a3e535ec985bbda057798443
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\86\868d559b5dc02887913689114613d239
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\86\868d559b5dc02887913689114613d239
+      projectPath: Library\Artifacts\86\868d559b5dc02887913689114613d239
+      originalPath: Library\Artifacts\1b\1b21f0c16af3ab24727fc790b79114ae
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\87\8707415178a64b30fec61c61c7a1e5ac
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\87\8707415178a64b30fec61c61c7a1e5ac
+      projectPath: Library\Artifacts\87\8707415178a64b30fec61c61c7a1e5ac
+      originalPath: Library\Artifacts\ae\aed65549b6e5b6e2e5bc9eff9c8067ab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\8a\8a54ca85705c651694eddf3044bf0ca4
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\8a\8a54ca85705c651694eddf3044bf0ca4
+      projectPath: Library\Artifacts\8a\8a54ca85705c651694eddf3044bf0ca4
+      originalPath: Library\Artifacts\e6\e6fc5aab98579d4baf76928781b7fbec
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\8a\8a5da61233cc9642cf78f95e4b498183
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\8a\8a5da61233cc9642cf78f95e4b498183
+      projectPath: Library\Artifacts\8a\8a5da61233cc9642cf78f95e4b498183
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\91\9114850c022c47e42d5fce8fb95546bf
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\91\9114850c022c47e42d5fce8fb95546bf
+      projectPath: Library\Artifacts\91\9114850c022c47e42d5fce8fb95546bf
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\94\94e4644f85097339c7437a4254d20248
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\94\94e4644f85097339c7437a4254d20248
+      projectPath: Library\Artifacts\94\94e4644f85097339c7437a4254d20248
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\94\94f2d50b2ce7cf67464480f72f10937c
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\94\94f2d50b2ce7cf67464480f72f10937c
+      projectPath: Library\Artifacts\94\94f2d50b2ce7cf67464480f72f10937c
+      originalPath: Library\Artifacts\b2\b2a403bbf7cfcce234c3a6d9312c418d
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\97\97c437fcf7981bb92b5a333becd8c6e1
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\97\97c437fcf7981bb92b5a333becd8c6e1
+      projectPath: Library\Artifacts\97\97c437fcf7981bb92b5a333becd8c6e1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\98\983924051ac1ae09e8864bc8ed4226a8
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\98\983924051ac1ae09e8864bc8ed4226a8
+      projectPath: Library\Artifacts\98\983924051ac1ae09e8864bc8ed4226a8
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\99\990c83895180d1e260db4e886a49028b
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\99\990c83895180d1e260db4e886a49028b
+      projectPath: Library\Artifacts\99\990c83895180d1e260db4e886a49028b
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\99\99799a2f5e1ee54a2111755e4626d05e
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\99\99799a2f5e1ee54a2111755e4626d05e
+      projectPath: Library\Artifacts\99\99799a2f5e1ee54a2111755e4626d05e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\9b\9bc2922c966f9945e548419d0fb101a2
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\9b\9bc2922c966f9945e548419d0fb101a2
+      projectPath: Library\Artifacts\9b\9bc2922c966f9945e548419d0fb101a2
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\a3\a37646aa894ef73c5a1fdd5adac72bae
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\a3\a37646aa894ef73c5a1fdd5adac72bae
+      projectPath: Library\Artifacts\a3\a37646aa894ef73c5a1fdd5adac72bae
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\a5\a5b54e0582e6437f7dcf3dc48f63fa84
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\a5\a5b54e0582e6437f7dcf3dc48f63fa84
+      projectPath: Library\Artifacts\a5\a5b54e0582e6437f7dcf3dc48f63fa84
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\a7\a7a91206eda55792efcfea1970c580db
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\a7\a7a91206eda55792efcfea1970c580db
+      projectPath: Library\Artifacts\a7\a7a91206eda55792efcfea1970c580db
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\ac\acbdb24c145aadb98a46a4dbfe682efa
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\ac\acbdb24c145aadb98a46a4dbfe682efa
+      projectPath: Library\Artifacts\ac\acbdb24c145aadb98a46a4dbfe682efa
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b0\b02088a97b64cc1af2c97f75690ae16d
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\b0\b02088a97b64cc1af2c97f75690ae16d
+      projectPath: Library\Artifacts\b0\b02088a97b64cc1af2c97f75690ae16d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\b0\b086355393a26f617552e71cee853b98
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\b0\b086355393a26f617552e71cee853b98
+      projectPath: Library\Artifacts\b0\b086355393a26f617552e71cee853b98
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b0\b0fe1ba6be2e76e7117386629f632c50
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\b0\b0fe1ba6be2e76e7117386629f632c50
+      projectPath: Library\Artifacts\b0\b0fe1ba6be2e76e7117386629f632c50
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b3\b35b675ff2eefe353e24cec46ea181e4
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\b3\b35b675ff2eefe353e24cec46ea181e4
+      projectPath: Library\Artifacts\b3\b35b675ff2eefe353e24cec46ea181e4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b7\b7ae0c25d6c7735b70c5bdd592031db1
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\b7\b7ae0c25d6c7735b70c5bdd592031db1
+      projectPath: Library\Artifacts\b7\b7ae0c25d6c7735b70c5bdd592031db1
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b8\b8c05bb9643d9577083ac4057b4fe973
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\b8\b8c05bb9643d9577083ac4057b4fe973
+      projectPath: Library\Artifacts\b8\b8c05bb9643d9577083ac4057b4fe973
+      originalPath: Library\Artifacts\6e\6e80fa1c48a756c243dcd6290d687c8e
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\b8\b8dbaf5d7e1da656c0af6b32cf09c4c2
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\b8\b8dbaf5d7e1da656c0af6b32cf09c4c2
+      projectPath: Library\Artifacts\b8\b8dbaf5d7e1da656c0af6b32cf09c4c2
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b9\b95d80f33e5b87519b2b7df1a030b47c
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\b9\b95d80f33e5b87519b2b7df1a030b47c
+      projectPath: Library\Artifacts\b9\b95d80f33e5b87519b2b7df1a030b47c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\ba\ba5f2c3e420a0e74ec3d2d65a3f9ebc5
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\ba\ba5f2c3e420a0e74ec3d2d65a3f9ebc5
+      projectPath: Library\Artifacts\ba\ba5f2c3e420a0e74ec3d2d65a3f9ebc5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\bd\bd30595b8b29737c9ff4c3fc0ec6982f
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\bd\bd30595b8b29737c9ff4c3fc0ec6982f
+      projectPath: Library\Artifacts\bd\bd30595b8b29737c9ff4c3fc0ec6982f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\bd\bd780bab30e473843d15f2b83b14d77b
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\bd\bd780bab30e473843d15f2b83b14d77b
+      projectPath: Library\Artifacts\bd\bd780bab30e473843d15f2b83b14d77b
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\be\be48aa0d66dacab09fe4f5aacd58df20
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\be\be48aa0d66dacab09fe4f5aacd58df20
+      projectPath: Library\Artifacts\be\be48aa0d66dacab09fe4f5aacd58df20
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\bf\bf3183419e700858a507a23c601764a9
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\bf\bf3183419e700858a507a23c601764a9
+      projectPath: Library\Artifacts\bf\bf3183419e700858a507a23c601764a9
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c0\c0b26c18f0b9a002f13d3a1a4819ea65
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\c0\c0b26c18f0b9a002f13d3a1a4819ea65
+      projectPath: Library\Artifacts\c0\c0b26c18f0b9a002f13d3a1a4819ea65
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c1\c1ca887ce3de99b6b3e14b58ee8c9b96
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\c1\c1ca887ce3de99b6b3e14b58ee8c9b96
+      projectPath: Library\Artifacts\c1\c1ca887ce3de99b6b3e14b58ee8c9b96
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c4\c4287a5ca15550b3041fdf42fc42e880
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\c4\c4287a5ca15550b3041fdf42fc42e880
+      projectPath: Library\Artifacts\c4\c4287a5ca15550b3041fdf42fc42e880
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\c5\c54dc5fbae94f7ff4f6b9b0ab1c2541f
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\c5\c54dc5fbae94f7ff4f6b9b0ab1c2541f
+      projectPath: Library\Artifacts\c5\c54dc5fbae94f7ff4f6b9b0ab1c2541f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\c6\c65b03f383383fab7bd6a2f9c357669c
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\c6\c65b03f383383fab7bd6a2f9c357669c
+      projectPath: Library\Artifacts\c6\c65b03f383383fab7bd6a2f9c357669c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c7\c7ff0cfa0dd2d711755315804f831d6c
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\c7\c7ff0cfa0dd2d711755315804f831d6c
+      projectPath: Library\Artifacts\c7\c7ff0cfa0dd2d711755315804f831d6c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\cc\cc563064971b84e4f0a4210d407c2c8c
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\cc\cc563064971b84e4f0a4210d407c2c8c
+      projectPath: Library\Artifacts\cc\cc563064971b84e4f0a4210d407c2c8c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\d4\d4f9749e057a5ed6ad061a540ddddf8d
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\d4\d4f9749e057a5ed6ad061a540ddddf8d
+      projectPath: Library\Artifacts\d4\d4f9749e057a5ed6ad061a540ddddf8d
+      originalPath: Library\Artifacts\75\757be3cf798a58690c21891c4b384340
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\d5\d50106a9acb9077e17d1715dcd5d8184
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\d5\d50106a9acb9077e17d1715dcd5d8184
+      projectPath: Library\Artifacts\d5\d50106a9acb9077e17d1715dcd5d8184
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\d5\d5d62253fec0e3b14a5a92b1658e1474
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\d5\d5d62253fec0e3b14a5a92b1658e1474
+      projectPath: Library\Artifacts\d5\d5d62253fec0e3b14a5a92b1658e1474
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\d6\d67363354c6ad521309ff45dce884858
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\d6\d67363354c6ad521309ff45dce884858
+      projectPath: Library\Artifacts\d6\d67363354c6ad521309ff45dce884858
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\e0\e073f5b028260df2a14181b6cacc4b98
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\e0\e073f5b028260df2a14181b6cacc4b98
+      projectPath: Library\Artifacts\e0\e073f5b028260df2a14181b6cacc4b98
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\e2\e2c880f76187442695e9c06fb2de76e8
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\e2\e2c880f76187442695e9c06fb2de76e8
+      projectPath: Library\Artifacts\e2\e2c880f76187442695e9c06fb2de76e8
+      originalPath: Library\Artifacts\18\18d23be98b78343bec7fa9d4975736b9
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\e3\e35259b24febe2e5a927653190da7e75
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\e3\e35259b24febe2e5a927653190da7e75
+      projectPath: Library\Artifacts\e3\e35259b24febe2e5a927653190da7e75
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\e5\e50664f7998d1bb9a0dbb374692aa5f2
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\e5\e50664f7998d1bb9a0dbb374692aa5f2
+      projectPath: Library\Artifacts\e5\e50664f7998d1bb9a0dbb374692aa5f2
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\ed\ed718a3886eadf2bcc30b61801f14055
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\ed\ed718a3886eadf2bcc30b61801f14055
+      projectPath: Library\Artifacts\ed\ed718a3886eadf2bcc30b61801f14055
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ed\ede261b30c40ccc807502fa8cd4e66a6
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\ed\ede261b30c40ccc807502fa8cd4e66a6
+      projectPath: Library\Artifacts\ed\ede261b30c40ccc807502fa8cd4e66a6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ef\ef97ed998381216c5ccb245a99e66a4d
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\ef\ef97ed998381216c5ccb245a99e66a4d
+      projectPath: Library\Artifacts\ef\ef97ed998381216c5ccb245a99e66a4d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\f1\f11f92300fbe7efe1dee4b67ce0bdc72
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\f1\f11f92300fbe7efe1dee4b67ce0bdc72
+      projectPath: Library\Artifacts\f1\f11f92300fbe7efe1dee4b67ce0bdc72
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\f1\f1f3a7531dd456d1810f53230a94c0fc
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\f1\f1f3a7531dd456d1810f53230a94c0fc
+      projectPath: Library\Artifacts\f1\f1f3a7531dd456d1810f53230a94c0fc
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\f2\f2251645ba0473a0aa88c9b8fd6fc4b0
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\f2\f2251645ba0473a0aa88c9b8fd6fc4b0
+      projectPath: Library\Artifacts\f2\f2251645ba0473a0aa88c9b8fd6fc4b0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\f4\f47ac0bc707cc0488b19087722fdab80
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\f4\f47ac0bc707cc0488b19087722fdab80
+      projectPath: Library\Artifacts\f4\f47ac0bc707cc0488b19087722fdab80
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\f5\f5992f72259efda785a0d518158b8754
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\f5\f5992f72259efda785a0d518158b8754
+      projectPath: Library\Artifacts\f5\f5992f72259efda785a0d518158b8754
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\f6\f6f5f76c8d2aa3b6389bfee79475848a
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\f6\f6f5f76c8d2aa3b6389bfee79475848a
+      projectPath: Library\Artifacts\f6\f6f5f76c8d2aa3b6389bfee79475848a
+      originalPath: Library\Artifacts\78\78d1edbc24e6306184d527ff65887292
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\f7\f76461ffba42fda1350daa55d29345a7
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\f7\f76461ffba42fda1350daa55d29345a7
+      projectPath: Library\Artifacts\f7\f76461ffba42fda1350daa55d29345a7
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\f8\f83d5a7724044b9cde171d963ee4cadb
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\f8\f83d5a7724044b9cde171d963ee4cadb
+      projectPath: Library\Artifacts\f8\f83d5a7724044b9cde171d963ee4cadb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\fd\fdf434b286b4e01076724c463072663a
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\fd\fdf434b286b4e01076724c463072663a
+      projectPath: Library\Artifacts\fd\fdf434b286b4e01076724c463072663a
+      originalPath: Library\Artifacts\c8\c80d23291fec876202a641ea67162294
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\Artifacts\fe\fe4dda4d217b5689826cc7f50e5388c8
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\fe\fe4dda4d217b5689826cc7f50e5388c8
+      projectPath: Library\Artifacts\fe\fe4dda4d217b5689826cc7f50e5388c8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\ff\ffc79393ffdc82eae3af95509d1518a1
+      fullPath: D:\Project\game\unity\pandacup\Library\Artifacts\ff\ffc79393ffdc82eae3af95509d1518a1
+      projectPath: Library\Artifacts\ff\ffc79393ffdc82eae3af95509d1518a1
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: D:\Project\game\unity\pandacup\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: D:\Project\game\unity\pandacup\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: D:\Project\game\unity\pandacup\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Project\game\unity\pandacup\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: D:\Project\game\unity\pandacup\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: D:\Project\game\unity\pandacup\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      fullPath: D:\Project\game\unity\pandacup\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\94\94cc00e02bee6c3afe5916a8d02e4cad.json
+      fullPath: D:\Project\game\unity\pandacup\Library\StateCache\PrefabStageHierarchy\94\94cc00e02bee6c3afe5916a8d02e4cad.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\94\94cc00e02bee6c3afe5916a8d02e4cad.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\1d\1d0b61b0d63cc77cecf92c78825f0038.json
+      fullPath: D:\Project\game\unity\pandacup\Library\StateCache\SceneView\1d\1d0b61b0d63cc77cecf92c78825f0038.json
+      projectPath: Library\StateCache\SceneView\1d\1d0b61b0d63cc77cecf92c78825f0038.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: D:\Project\game\unity\pandacup\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Project\game\unity\pandacup\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Project\game\unity\pandacup\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Project\game\unity\pandacup\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Project\game\unity\pandacup\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Project\game\unity\pandacup\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 3819d0c79d2b07f7c136f64fc5ddf260776097b1
     mergeA: 
     mergeB: 

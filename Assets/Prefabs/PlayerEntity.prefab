@@ -169,29 +169,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visual: {fileID: 6190828377897500085}
-  Skills:
-  - Name: Swing
+  skills:
+  - Name: Light
     input: Fire1
     inputType: 2
     canMove: 1
     animation: Swing
-    Cooldown: 0.5
+    cooldown: 0.5
     damage: 1
     knockback: 1
-    range: 3
+    range: 0
     effectType: 0
     effect: {fileID: 727406335867265946, guid: 7741eb2291676c44c8072d66d742cda4, type: 3}
-  - Name: Heavy Swing
+  - Name: Heavy
     input: Fire2
-    inputType: 2
-    canMove: 1
+    inputType: 0
+    canMove: 0
     animation: HeavySwing
-    Cooldown: 2
-    damage: 2
-    knockback: 2
-    range: 3
+    cooldown: 5
+    damage: 3
+    knockback: 3
+    range: 0
     effectType: 0
     effect: {fileID: 3749854082417764861, guid: f93b8889155e91b45a64d7a5cfb01f12, type: 3}
+  moveSpeed: 50
   face: 1
 --- !u!114 &2983846350137598880
 MonoBehaviour:
@@ -217,8 +218,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4231c164846be2946b2dfbb00a063454, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 30
-  destroyOnDead: 1
+  Health: 25
+  destroyOnDead: 0
+  animationOnDead: Death
 --- !u!1001 &2983846349078028979
 PrefabInstance:
   m_ObjectHideFlags: 0

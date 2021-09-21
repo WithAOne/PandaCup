@@ -12,6 +12,7 @@ public class CharacterControl : MonoBehaviour
 
     public List<CombatSkill> skills = new List<CombatSkill>();
 
+    public float moveSpeed = 50f;
     Vector2 movement = new Vector2();
     [System.NonSerialized] public bool moving = false;
     [System.NonSerialized] public bool attacking = false;
@@ -49,7 +50,7 @@ public class CharacterControl : MonoBehaviour
         if (movement.magnitude > 0)
         {
             // move character
-            var m = movement * 0.1f;
+            var m = movement * Time.deltaTime * moveSpeed;
             rb.velocity += m;
 
             // orient properly
@@ -84,7 +85,7 @@ public class CharacterControl : MonoBehaviour
             { use = true; }
 
             // use skill if cooled down
-            if (use && skill.cooldownTimer == 0)
+            if (!attacking && use && skill.cooldownTimer == 0)
             {
                 UseSkill(skill);
             }

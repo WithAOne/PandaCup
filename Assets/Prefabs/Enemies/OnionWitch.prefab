@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 4407578280124793767}
   - component: {fileID: 4407578280124792921}
   - component: {fileID: 4407578280124793766}
-  - component: {fileID: 4407578280124793760}
-  - component: {fileID: 4407578280124793761}
   - component: {fileID: 4407578280124793774}
+  - component: {fileID: 3695924335181224995}
+  - component: {fileID: 4063090329054969318}
   m_Layer: 0
   m_Name: OnionWitch
   m_TagString: Untagged
@@ -90,6 +90,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 10
   destroyOnDead: 1
+  animationOnDead: 
 --- !u!114 &4407578280124793766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,45 +103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14c6f57eccd7d6e4296ffbcc12717572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4407578280124793760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2995908158387214381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14d0d02c16ccd4a4fbac833f1e98e6b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  visual: {fileID: 2522119017314966461}
-  tailDistance: 3
-  moveSpeed: 0.5
---- !u!114 &4407578280124793761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2995908158387214381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5139767b3bee0af46b14b2453f4d2c87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skills:
-  - Name: Basic
-    input: 
-    inputType: 0
-    canMove: 1
-    Cooldown: 0.5
-    damage: 1
-    knockback: 1
-    range: 3
-    effectType: 1
-    effect: {fileID: 0}
-  skillCooldown: 0
 --- !u!114 &4407578280124793774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,6 +116,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+--- !u!114 &3695924335181224995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2995908158387214381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7578deb2c3b8765459eb198ef4623da9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visual: {fileID: 2522119017314966461}
+  loc: {x: 0, y: 0}
+  moveSpeed: 0.5
+  limits: {x: 12, y: 4}
+  centre: {x: 0, y: 4}
+  relocateInterval: 4
+--- !u!114 &4063090329054969318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2995908158387214381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5139767b3bee0af46b14b2453f4d2c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skills:
+  - Name: thing
+    input: 
+    inputType: 0
+    canMove: 1
+    animation: 
+    cooldown: 2
+    damage: 3
+    knockback: 1
+    range: 0.5
+    effectType: 1
+    effect: {fileID: 0}
+  skillCooldown: 0
 --- !u!1 &5870360689030749578
 GameObject:
   m_ObjectHideFlags: 0

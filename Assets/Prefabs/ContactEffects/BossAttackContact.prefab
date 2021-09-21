@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3939851261084798381}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.61, y: -1.15, z: 0}
-  m_LocalScale: {x: 17.486341, y: 17.486341, z: 17.486341}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -114,6 +114,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   owner: {fileID: 0}
   life: 0
-  damage: 1
-  knockback: 1.5
+  damage: 5
+  knockback: 3
   contactFrom: {fileID: 0}
